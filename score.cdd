@@ -1,0 +1,9 @@
+[Top]
+in:totalScoreIn 
+out:totalScoreOut 
+state:passive active 
+initial:passive
+int:active passive totalScoreOut!totalScoreIn 
+ext:passive active Any(totalScoreIn)?50
+passive:00:20:00:00
+active:00:20:00:00
